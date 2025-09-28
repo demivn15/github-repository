@@ -1,4 +1,4 @@
-# Querries
+# Queries
 
 ## Who are the ancestors of a specific person?
 
