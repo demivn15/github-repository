@@ -5,6 +5,8 @@
 1 ?- \[expertSystem\].  
 true.  
 
+### Filter: all
+
 2 ?- videogameFilter(X, Filter, A, Subfilter, Results).  
 Select a filter:  
 all, genre, number_of_players, level_type, characteristics  
@@ -12,6 +14,8 @@ all, genre, number_of_players, level_type, characteristics
 
 Filter = all,  
 Results = \[assassins_creed, grand_theft_auto, batman_arkham, far_cry, watch_dogs, minecraft, dont_starve_together, splinter_cell, prince_of_persia|...\].  
+
+### Filter: genre
 
 3 ?- videogameFilter(X, Filter, A, Subfilter, Results).  
 Select a filter:  
@@ -61,6 +65,8 @@ Filter = genre,
 Subfilter = sandbox,  
 Results = \[dont_starve_together, minecraft\].  
 
+### Filter: number_of_players
+
 3 ?- videogameFilter(X, Filter, A, Subfilter, Results).  
 Select a filter:  
 all, genre, number_of_players, level_type, characteristics  
@@ -84,6 +90,8 @@ singleplayer, multiplayer
 Filter = number_of_players,  
 Subfilter = multiplayer,  
 Results = \[grand_theft_auto, among_us, dont_starve_together, watch_dogs, minecraft, call_of_duty\].  
+
+### Filter: level_type
 
 3 ?- videogameFilter(X, Filter, A, Subfilter, Results).  
 Select a filter:  
@@ -119,7 +127,9 @@ open_world, linear, map_based
 
 Filter = level_type,  
 Subfilter = map_based,  
-Results = \[among_us, call_of_duty\].  
+Results = \[among_us, call_of_duty\].
+
+### Filter: characteristics
 
 3 ?- videogameFilter(X, Filter, A, Subfilter, Results).  
 Select a filter:  
