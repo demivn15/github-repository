@@ -1,0 +1,8 @@
+1 ?- [lab10].
+true.
+     
+2 ?- phrase(sentence(S), [the, angry, cat, eats, the, small, fish]).
+S = eats(cat, fish) .
+
+3 ?- phrase(sentence(S), [a, dog, sees, a, small, cat]).             
+S = sees(dog, cat) .
